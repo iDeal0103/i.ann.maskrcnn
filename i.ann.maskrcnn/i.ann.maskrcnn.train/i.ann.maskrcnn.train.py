@@ -334,9 +334,6 @@ def main(options, flags):
                 layers='all')  # augmentation=augmentation
 
 
-# if __name__ == "__main__":
-#     options, flags = gscript.parser()
-#     main(options, flags)
 if __name__ == "__main__":
     options, flags = gscript.parser()
     main(options, flags)
